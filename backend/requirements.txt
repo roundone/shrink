@@ -1,0 +1,7 @@
+Flask>=2.0
+requests
+openai>=1.0 # Use the newer OpenAI library
+livekit-api>=1.0 #
+gunicorn # For running Flask in Cloud Run
+google-cloud-secret-manager # To access API keys securely
+flask-cors # To handle requests from your frontend domain
